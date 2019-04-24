@@ -23,3 +23,14 @@ class PaintingModel: NSObject, UITableViewDataSource {
         return cell
     }
 }
+
+extension PaintingModel: PaintingTableViewCellDelegate {
+    func tappedLikeButton(on cell: PaintingTableViewCell) {
+        
+    }
+    
+    
+}
+
+
+
