@@ -13,6 +13,9 @@
 		E95BFF0122710C3500921FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95BFEFF22710C3500921FEE /* LaunchScreen.storyboard */; };
 		E95BFF0922710EE000921FEE /* PaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BFF0822710EE000921FEE /* PaintingViewController.swift */; };
 		E95BFF0B22710F4900921FEE /* PaintingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BFF0A22710F4900921FEE /* PaintingTableViewCell.swift */; };
+		E95BFF0D2271160000921FEE /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BFF0C2271160000921FEE /* Painting.swift */; };
+		E95BFF0F2271162900921FEE /* PaintingTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BFF0E2271162900921FEE /* PaintingTableViewCellDelegate.swift */; };
+		E95BFF112271164300921FEE /* PaintingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BFF102271164300921FEE /* PaintingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E95BFF0222710C3500921FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E95BFF0822710EE000921FEE /* PaintingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingViewController.swift; sourceTree = "<group>"; };
 		E95BFF0A22710F4900921FEE /* PaintingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingTableViewCell.swift; sourceTree = "<group>"; };
+		E95BFF0C2271160000921FEE /* Painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		E95BFF0E2271162900921FEE /* PaintingTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		E95BFF102271164300921FEE /* PaintingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				E95BFF0822710EE000921FEE /* PaintingViewController.swift */,
 				E95BFF0A22710F4900921FEE /* PaintingTableViewCell.swift */,
+				E95BFF0C2271160000921FEE /* Painting.swift */,
+				E95BFF0E2271162900921FEE /* PaintingTableViewCellDelegate.swift */,
+				E95BFF102271164300921FEE /* PaintingModel.swift */,
 				E95BFEFA22710C2100921FEE /* Main.storyboard */,
 				E95BFEF622710C2100921FEE /* AppDelegate.swift */,
 				E95BFEFD22710C3500921FEE /* Assets.xcassets */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E95BFF0922710EE000921FEE /* PaintingViewController.swift in Sources */,
+				E95BFF112271164300921FEE /* PaintingModel.swift in Sources */,
 				E95BFEF722710C2100921FEE /* AppDelegate.swift in Sources */,
 				E95BFF0B22710F4900921FEE /* PaintingTableViewCell.swift in Sources */,
+				E95BFF0D2271160000921FEE /* Painting.swift in Sources */,
+				E95BFF0F2271162900921FEE /* PaintingTableViewCellDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
