@@ -43,6 +43,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="v6B-qV-AWJ"/>
+                    <connections>
+                        <outlet property="galleryTableView" destination="MMA-oq-lwH" id="Wv9-VG-doD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
